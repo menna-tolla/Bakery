@@ -1,0 +1,236 @@
+/* ----------global-css--------- */
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ul li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+p,button,li
+{
+    font-family: 'Alegreya sans' , sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Alegreya' ,serif;
+}
+.clear
+{
+    clear: both;
+}
+.panel
+{
+    position: fixed;
+    top: 300px;
+    right: 0px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    line-height: 42px;
+    font-size: 22px;
+}
+.panel  i
+{
+    color: #999;
+    padding: 0px;
+    margin: 0px;
+}
+.panel i:hover
+{
+    color: rgb(46, 46, 241);
+}
+
+
+/* ---------------nav---------- */
+nav
+{
+    padding:0px 150px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.logo img
+{
+    width: 180px;
+}
+.logo
+{
+    float: left;
+}
+.links
+{
+    float: right;
+}
+.links li
+{
+    display: inline-block;
+    padding:20px;
+}
+.links a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+/* --------------------=home------------------- */
+.home
+{
+    background-image: url(./photo/photo-home/photo\ home3.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 290px;
+    color: white;
+    text-align: center;
+    padding-top:100px ;
+    line-height: 77px;
+}
+.home h1
+{
+    font-size: 56px;
+}
+.home p
+{
+    font-size: 18px;
+}
+.home-details
+{
+    width: 80%;
+    margin: auto;
+}
+.details
+{
+    width: 33.33%;
+    float: left;
+    padding: 80px 0px;
+}
+.try
+{
+    margin: 10px;
+}
+.details img
+{
+    width: 100%;
+}
+.details-try
+{
+    padding: 20px;
+    color: rgb(170, 170, 170);
+    border: 1px solid #efefef;
+    border-top: none;
+}
+.details-try h2 , a
+{
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(48, 48, 48);
+}
+.details-try span
+{
+    font-size: 14px;
+    line-height:32px;
+}
+.details-try p
+{
+    font-size: 17px;
+    line-height: 33px;
+}
+.search
+{
+    padding: 20px;
+    margin-top: 50px;
+    color: rgb(170, 170, 170);
+}
+.search input
+{
+    font-size: 15px;
+    padding: 0 38px 0 13px;
+    line-height: 40px;
+    height: 40px;
+}
+.search .line
+{
+    margin: 15px 0px;
+    width: 250px;
+    height: 1px;
+    background-color: RGB(107, 107, 107);
+}
+.search h2
+{
+    color: rgb(48, 48, 48);
+    font-size: 17px;
+    line-height: 23px;
+}
+.search span
+{
+    display: block;
+    margin: 15px 0px;
+}
+/* ---------------------------footer----------------- */
+.footer
+{
+background-color: rgb(64,61,56);
+color: RGB(104, 104, 104);
+}
+.footer-data
+{
+    width: 80%;
+    margin: auto;
+    /* padding: 60px; */
+    line-height: 35px;
+}
+.footer-details
+{
+    width: 25%;
+    float: left;
+    padding: 40px;
+}
+.footer-details h3
+{
+    color: whitesmoke;
+}
+.footer-details li
+{
+    list-style: none;
+}
+.footer-details p
+{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.footer-end
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    padding: 40px;
+}
+#footer
+{
+    background-color: rgb(53,51,48);
+    color: RGB(104, 104, 104);
+}
+.line
+{
+    width: 200px;
+    height: 1px;
+    background-color: RGB(104, 104, 104);
+}
+.footer-end li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+}
+

@@ -1,0 +1,226 @@
+/* ----------global-css--------- */
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ul li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+p,button,li
+{
+    font-family: 'Alegreya sans' , sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Alegreya' ,serif;
+}
+.clear
+{
+    clear: both;
+}
+.panel
+{
+    position: fixed;
+    top: 300px;
+    right: 0px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    line-height: 42px;
+    font-size: 22px;
+}
+.panel  i
+{
+    color: #999;
+    padding: 0px;
+    margin: 0px;
+}
+.panel i:hover
+{
+    color: rgb(46, 46, 241);
+}
+
+
+/* ---------------nav---------- */
+nav
+{
+    padding:0px 150px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.logo img
+{
+    width: 180px;
+}
+.logo
+{
+    float: left;
+}
+.links
+{
+    float: right;
+}
+.links li
+{
+    display: inline-block;
+    padding:20px;
+}
+.links a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+/* --------------------=home------------------- */
+.home
+{
+    background-image: url(./photo/photo-home/photo\ home3.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 290px;
+    color: white;
+    text-align: center;
+    padding-top:100px ;
+    line-height: 77px;
+}
+.home h1
+{
+    font-size: 56px;
+}
+.home p
+{
+    font-size: 18px;
+}
+.details
+{
+    width: 80%;
+    margin: 100px auto;
+}
+.contact-information
+{
+    width: 25%;
+    float: left;
+}
+.contact
+{
+    padding: 0px 20px;
+    width: 75%;
+    float: left;
+}
+.details h2
+{
+   color: rgb(48, 48, 48);
+   font-size: 28px;
+   line-height: 40px;
+}
+.contact-input1 input
+{
+    width: 45%;
+    margin: 10px 0px;
+    padding: 10px;
+    color: rgb(102, 102, 102);
+}
+.contact-input2 input , textarea
+{
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+}
+.contact button
+{
+    padding: 5px 20px;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(142,119,84);
+    border: none;
+    border-radius: 5px;
+}
+.contact-information li
+{
+    margin: 10px 0px;
+}
+.contact-information i
+{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgb(142,119,84);
+    color: white;
+}
+.contact-information p
+{
+    font-size: 16px;
+    line-height: 25px;
+}
+/* ---------------------------footer----------------- */
+.footer
+{
+background-color: rgb(64,61,56);
+color: RGB(104, 104, 104);
+}
+.footer-data
+{
+    width: 80%;
+    margin: auto;
+    /* padding: 60px; */
+    line-height: 35px;
+}
+.footer-details
+{
+    width: 25%;
+    float: left;
+    padding: 40px;
+}
+.footer-details h3
+{
+    color: whitesmoke;
+}
+.footer-details li
+{
+    list-style: none;
+}
+.footer-details p
+{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.footer-end
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    padding: 40px;
+}
+#footer
+{
+    background-color: rgb(53,51,48);
+    color: RGB(104, 104, 104);
+}
+.line
+{
+    width: 200px;
+    height: 1px;
+    background-color: RGB(104, 104, 104);
+}
+.footer-end li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+}
+

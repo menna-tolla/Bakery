@@ -1,0 +1,372 @@
+/* ----------global-css--------- */
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ul li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+p,button,li
+{
+    font-family: 'Alegreya sans' , sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Alegreya' ,serif;
+}
+.clear
+{
+    clear: both;
+}
+
+.panel
+{
+    position: fixed;
+    top: 300px;
+    right: 0px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    line-height: 42px;
+    font-size: 22px;
+}
+.panel  i
+{
+    color: #999;
+    padding: 0px;
+    margin: 0px;
+}
+.panel i:hover
+{
+    color: rgb(46, 46, 241);
+}
+ 
+.scroll
+{
+    width: 35px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 40%;  
+    margin: auto;
+    margin-top: 100px; 
+    cursor: pointer;
+}
+/* ---------------nav---------- */
+nav
+{
+    padding:0px 150px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.logo img
+{
+    width: 180px;
+}
+.logo
+{
+    float: left;
+}
+.links
+{
+    float: right;
+}
+.links li
+{
+    display: inline-block;
+    padding:20px;
+}
+.links a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.links a:hover 
+{
+    color: rgb(142, 119, 84);
+}
+/* ----------------home----------------- */
+#home
+{
+    line-height: 80px;
+    height: 100vh;
+    background-image: url(./photo/photo-home/photo\ home3.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    color: white;
+}
+.home-details
+{
+    padding-top: 150px;
+    text-align: center;
+}
+.home-details h2
+{
+    font-size: 30px;
+}
+.home-details h1
+{
+    font-size: 60px;
+}
+.home-details p
+{
+    font-size: 20px;
+}
+.home-details button
+{
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    margin: 5px;
+}
+.home-details .bt1
+{
+    background-color: rgb(142,119,84);
+    border: 2px solid transparent;
+}
+.home-details .bt1:hover
+{
+   background-color: white;   
+   color: black;
+}
+.home-details .bt2
+{
+    border: 2px solid white;
+}
+.home-details .bt2:hover
+{
+   background-color: white;   
+   color: black;
+}
+
+.scroll-circle
+{
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+/* ----------------------about---------------------- */
+#about
+{
+    padding: 80px 0px;
+}
+.about-data
+{
+    width: 80%;
+    margin: auto;
+}
+.about-img
+{
+    width: 50%;
+    float: left;
+}
+.about-details
+{
+    width: 50%;
+    float: right;
+    padding: 60px 30px;
+    line-height: 50px;
+}
+.about-img img 
+{
+    width: 100%;
+}
+.about-details li
+{
+    list-style: none;
+}
+.about-details i
+{
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    color: rgb(142,119,84);
+}
+
+/* -----------------Location---------------------- */
+#location
+{
+    padding: 80px 0px;
+    background-color: rgb(248,248,248);
+}
+.location-data
+{
+    width: 80%;
+    margin: auto;
+}
+.location-details
+{
+    width: 50%;
+    float: left;
+    line-height: 30px;
+    padding: 80px 20px;
+}
+.location-img
+{
+    width: 50%;
+    float: right;
+}
+.location-img img
+{
+    width: 100%;
+}
+.location-details h2
+{
+    margin: 20px 0px;
+}
+.location-details p
+{
+    margin-bottom: 20px;
+}
+/* --------------------Baking--------------------------- */
+#baking
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    padding: 80px 0px;
+}
+#baking h2 , h3
+{
+ padding: 20px;
+}
+#baking p
+{
+    padding: 20px;
+}
+.baking-details
+{
+    width: 33.333%;
+    float: left;
+    border: 20px solid white;
+}
+.baking-details img
+{
+    width: 100%;
+}
+/* -------------------mab------------------- */
+#mab
+{
+    background-color: rgb(248,248,248);
+    padding: 80px 0px;
+}
+.data-mab
+{
+    width: 80%;
+    margin: auto;
+}
+.details-mab
+{
+    width: 50%;
+    float: left;
+    line-height: 30px;
+    padding: 20px;
+}
+.img-mab
+{
+    width: 50%;
+    float: right;
+}
+iframe
+{
+    width: 100%;
+    /* filter: invert(100%); */
+}
+.details-mab ul
+{
+    list-style: none;
+}
+.details-mab li
+{
+    margin: 10px 0px;
+}
+.details-mab i
+{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 10px 0px;
+    background-color: rgb(142,119,84);
+    color: white;
+}
+.details-mab h3
+{
+    background-color: teal;
+}
+
+/* ---------------------------footer----------------- */
+.footer
+{
+background-color: rgb(64,61,56);
+color: RGB(104, 104, 104);
+}
+.footer-data
+{
+    width: 80%;
+    margin: auto;
+    /* padding: 60px; */
+    line-height: 35px;
+}
+.footer-details
+{
+    width: 25%;
+    float: left;
+    padding: 40px;
+}
+.footer-details h3
+{
+    color: whitesmoke;
+}
+.footer-details li
+{
+    list-style: none;
+}
+.footer-details p
+{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.footer-end
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    padding: 40px;
+}
+#footer
+{
+    background-color: rgb(53,51,48);
+    color: RGB(104, 104, 104);
+}
+.line
+{
+    width: 200px;
+    height: 1px;
+    background-color: RGB(104, 104, 104);
+}
+.footer-end li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+}
+
